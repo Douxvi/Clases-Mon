@@ -1,0 +1,22 @@
+
+'''menu: area y perimetro del cuadrado 
+Area y perimetro del rectangulo
+Area y perimetro del circulo 
+Salir'''
+Import math as m
+def areaCuadrado (lado):
+    return lado+lado
+def areaCirculo (radio): 
+    return m.pi*radio**2
+def mostrarMenu ():
+    print('selecciona un opcion:\n')
+    print(' 1: Area y perimetro de circulo:')
+    print(' 4, salir')
+opcion: 0
+while opcion !=4
+    mostrarMenu()
+    opcion= int(input('ingrese una opcion:'))
+
+    if opcion==1:
+        lado= float(input('introducir el lado'))
+        print(f:area de cuadrado(areaCuadrado(lado)):')
